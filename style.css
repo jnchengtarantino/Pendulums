@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#canvas {
+    border: 0px solid black;
+    z-index: -1;
+}
+
+#controls {
+    bottom: 8%;
+    left: 2%;
+    position: fixed;
+    width: 20%;
+}
+
+#form0 {
+    position: fixed;
+    left: 12%;
+    bottom: 5%;
+    width: 75px;
+    display: inline-block;
+}
+
+#form1 {
+    position: fixed;
+    left: 30%;
+    bottom: 5%;
+    width: 75px;
+    display: inline-block;
+}
+
+#form2 {
+    position: fixed;
+    left: 47%;
+    bottom: 5%;
+    width: 75px;
+    display: inline-block;
+}
+
+#form3 {
+    position: fixed;
+    left: 63%;
+    bottom: 5%;
+    width: 75px;
+    display: inline-block;
+}
+
+#form4 {
+    position: fixed;
+    left: 80%;
+    bottom: 5%;
+    width: 75px;
+    display: inline-block;
+}
+
+#startButton {
+    background-color: #09d82b;
+    color: #000000;
+    padding: 10px;
+    width: 75px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+#pauseButton {
+    background-color: #f3de22;
+    color: #000000;
+    padding: 10px;
+    width: 75px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+#stopButton {
+    background-color: #f51717;
+    color: #000000;
+    padding: 10px;
+    width: 75px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}

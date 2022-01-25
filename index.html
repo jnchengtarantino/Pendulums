@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF=8" />
+        <meta name = "viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./style.css"/>
+        <title>Pendulums</title>
+    </head>
+    <body>
+        <canvas id="canvas">
+        </canvas>
+        <script src="./canvas.js"></script>
+        <ul id="controls">
+            <button id = 'startButton' onclick="simControl('START')">Start</button> <br> 
+            <button id = 'pauseButton' onclick="simControl('PAUSE')">Pause</button> <br> 
+            <button id = 'stopButton' onclick="simControl('STOP')">Stop</button>
+        </ul>
+        <div id="form0">
+            <form action='' onsubmit="processForm(0); return false;">
+                <div>
+                    <label>Mass</label>
+                    <input type="number" id="mass0"><br>
+                </div>
+                <div>
+                    <label>Max Wind</label>
+                    <input type="number" id="windFactor0"><br>
+                </div>
+                <div>
+                    <label>Angle</label>
+                    <input type="number" id="angle0"><br>
+                </div>
+                <div>
+                    <label>Length</label>
+                    <input type="number" id="length0"><br>
+                </div>
+                <button>Submit</button>
+            </form>
+        </div>
+        <div id="form1">
+            <form action='' onsubmit="processForm(1); return false;">
+                <div>
+                    <label>Mass</label>
+                    <input type="number" id="mass1"><br>
+                </div>
+                <div>
+                    <label>Max Wind</label>
+                    <input type="number" id="windFactor1"><br>
+                </div>
+                <div>
+                    <label>Angle</label>
+                    <input type="number" id="angle1"><br>
+                </div>
+                <div>
+                    <label>length</label>
+                    <input type="number" id="length1"><br>
+                </div>
+                <button>Submit</button>
+            </form>
+        </div>
+        <div id="form2">
+            <form action='' onsubmit="processForm(2); return false;">
+                <div>
+                    <label>Mass</label>
+                    <input type="number" id="mass2"><br>
+                </div>
+                <div>
+                    <label>Max Wind</label>
+                    <input type="number" id="windFactor2"><br>
+                </div>
+                <div>
+                    <label>Angle</label>
+                    <input type="number" id="angle2"><br>
+                </div>
+                <div>
+                    <label>length</label>
+                    <input type="number" id="length2"><br>
+                </div>
+                <button>Submit</button>
+            </form>
+        </div>
+        <div id="form3">
+            <form action='' onsubmit="processForm(3); return false;">
+                <div>
+                    <label>Mass</label>
+                    <input type="number" id="mass3"><br>
+                </div>
+                <div>
+                    <label>Max Wind</label>
+                    <input type="number" id="windFactor3"><br>
+                </div>
+                <div>
+                    <label>Angle</label>
+                    <input type="number" id="angle3"><br>
+                </div>
+                <div>
+                    <label>length</label>
+                    <input type="number" id="length3"><br>
+                </div>
+                <button>Submit</button>
+            </form>
+        </div>
+        <div id="form4">
+            <form action='' onsubmit="processForm(4); return false;">
+                <div>
+                    <label>Mass</label>
+                    <input type="number" id="mass4"><br>
+                </div>
+                <div>
+                    <label>Max Wind</label>
+                    <input type="number" id="windFactor4"><br>
+                </div>
+                <div>
+                    <label>Angle</label>
+                    <input type="number" id="angle4"><br>
+                </div>
+                <div>
+                    <label>length</label>
+                    <input type="number" id="length4"><br>
+                </div>
+                <button>Submit</button>
+            </form>
+        </div>
+    </body>
+</html>
